@@ -1,0 +1,30 @@
+{
+  "name": "postcss-font-family-system-ui-commonjs",
+  "version": "0.0.1",
+  "description": "postcss-font-family-system-ui bundled for the browser",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "files": [
+    "bundle.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanZim/postcss-font-family-system-ui-commonjs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanZim/postcss-font-family-system-ui-commonjs/issues"
+  },
+  "homepage": "https://github.com/RyanZim/postcss-font-family-system-ui-commonjs#readme",
+  "dependencies": {
+    "postcss-font-family-system-ui": "2.1.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.51.8",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
+}
