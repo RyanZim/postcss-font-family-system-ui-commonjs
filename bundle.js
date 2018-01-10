@@ -45,6 +45,6 @@ var systemUI$1 = postcss.plugin('postcss-font-family-system-ui', () => {
   return (root) => {
     root.walk(transform());
   }
-});
+})
 
 module.exports = systemUI$1;
