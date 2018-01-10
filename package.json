@@ -1,6 +1,6 @@
 {
   "name": "postcss-font-family-system-ui-commonjs",
-  "version": "0.0.1",
+  "version": "2.1.2",
   "description": "postcss-font-family-system-ui bundled for the browser",
   "main": "bundle.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/RyanZim/postcss-font-family-system-ui-commonjs#readme",
   "dependencies": {
-    "postcss-font-family-system-ui": "2.1.1"
+    "postcss-font-family-system-ui": "2.1.2"
   },
   "devDependencies": {
     "rollup": "^0.53.4",
